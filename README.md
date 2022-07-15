@@ -10,3 +10,7 @@ iperf3: 3.11-r0
     ```docker
     docker run -it --rm --net host docker_iperf3:latest
     ```
+3. Execure iperf3 client
+    ```bash
+    iperf3 -c [SERVER_IP]
+    ```
